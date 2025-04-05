@@ -16,6 +16,7 @@ public class GameSelectionScreen {
         // Panel to hold all UI components
         JPanel panel = new JPanel();
         panel.setLayout(new GridLayout(4, 1, 10, 20)); // GridLayout with 4 rows, 1 column
+        panel.setDoubleBuffered(true);
         
         // Label for game selection
         JLabel label = new JLabel("Choose Your Game", JLabel.CENTER);
