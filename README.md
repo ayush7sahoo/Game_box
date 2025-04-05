@@ -76,7 +76,7 @@ System Requirements
 
 Installation & Execution
 1. Clone or download the project files.
-2. Compile and run the startGame.java file.
+2. Compile and run the GameStartScreen.java file.
 3. Enjoy the game!
 
 
