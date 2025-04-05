@@ -89,7 +89,7 @@ Team Members
     4. Devansh Dengla (24124053)
 
 Credits
-Veenith S Gadad – TicTacToe, Pokemon Match Cards, overall linking of games, end screen.
-Ayush Kumar Sahoo- Snake and Ladders, overall linking of games, username input.
-Tanishka Gandhi- Flappy Bird, single player game section overall code.
-Devansh Dengla- Pacman, snake game, single player game section overall code.
+Veenith S Gadad – TicTacToe, Pokemon Match Cards, overall linking of games, end screen.             
+                     Ayush Kumar Sahoo- Snake and Ladders, overall linking of games, username input.
+                                      Tanishka Gandhi- Flappy Bird, single player game section overall code.
+                                                    Devansh Dengla- Pacman, snake game, single player game section overall code.
