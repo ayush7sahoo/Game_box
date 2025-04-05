@@ -68,7 +68,4 @@ public class endScreen {
          frame.setVisible(true);
                  
     }
-    public static void main(String[] args) {
-        new endScreen(10, 10, "winner", "afr");
-    }
 }
