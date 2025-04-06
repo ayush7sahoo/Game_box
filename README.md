@@ -12,6 +12,7 @@ This collection includes multiple 2-player and single-player games developed wit
 4. Coin Toss – A coin will be tossed incase of a tie at the end of the game.
 
 Single-Player Games
+    
     1. Pac-Man - A maze-based arcade game where the player navigates Pac-Man to collect pellets while avoiding ghosts.
 
     2. Flappy Bird - A side-scrolling game where the player controls a bird and navigates through gaps between pipes.
