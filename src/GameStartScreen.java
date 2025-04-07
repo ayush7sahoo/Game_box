@@ -38,6 +38,7 @@ public class GameStartScreen {
             @Override
             public void actionPerformed(ActionEvent e) {
                 startSinglePlayer();
+                frame.dispose();
             }
         });
         singlePlayerButton.setFocusable(false);
@@ -50,6 +51,7 @@ public class GameStartScreen {
             @Override
             public void actionPerformed(ActionEvent e) {
                 startMultiplayer();
+                frame.dispose();
             }
         });
         multiPlayerButton.setFocusable(false);
