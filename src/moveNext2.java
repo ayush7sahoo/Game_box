@@ -44,9 +44,11 @@ public class moveNext2 {
         buttonYes.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                frame.dispose();
-                SnakeAndLadderGame newSnake=new SnakeAndLadderGame(score1,score2,p1,p2);
                 
+                SwingUtilities.invokeLater(()->{
+                    SnakeAndLadderGame newSnake=new SnakeAndLadderGame(score1,score2,p1,p2);
+                });
+                frame.dispose();
             }
         });
 
