@@ -64,14 +64,17 @@ public class GameStartScreen {
     // Method to handle starting the game in Single Player mode
     private static void startSinglePlayer() {
         JOptionPane.showMessageDialog(null, "Starting Single Player Mode...");
-        
-        new GameSelectionScreen();
+        SwingUtilities.invokeLater(()->{
+            new GameSelectionScreen();
+        });
     }
     
     // Method to handle starting the game in Multiplayer mode
     private static void startMultiplayer() {
         JOptionPane.showMessageDialog(null, "Starting Multiplayer Mode...");
-        new startGame();
+        SwingUtilities.invokeLater(()->{
+            new startGame();
+        });
     }
     public static void main(String[] args) {
         new GameStartScreen();
